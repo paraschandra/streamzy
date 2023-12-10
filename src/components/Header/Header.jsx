@@ -21,7 +21,7 @@ const Header = () => {
     <>
       <div className="absolute z-20 w-full h-14 md:h-16 flex items-center justify-between px-4 pl-2 sm:px-12 sm:pl-6 py-2 md:py-4 
       bg-white dark:bg-neutral-900 backdrop-filter bg-clip-padding backdrop-blur-md bg-opacity-60 dark:bg-opacity-80 ">
-        <Link to='/'>
+        <Link to='/feed'>
           <div className="text-xl md:text-2xl font-semibold dark:text-white flex items-center justify-center">
             <img src={Logo}/>zy
             
