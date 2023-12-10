@@ -12,7 +12,7 @@ function App() {
           <Header />
           <Sidebar category={category} setCategory={setCategory}/>
           <Routes>
-            <Route path="/feed" element={<Feed category={category}/>} />
+            <Route path="/" element={<Feed category={category}/>} />
             <Route path="/video/:id" element={<VideoFeed/>}/>
             <Route path="/channel/:id" element={<ChannelFeed/>} />
             <Route path="/search/:searchTerm" element={<SearchFeed />} />

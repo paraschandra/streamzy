@@ -8,7 +8,7 @@ const Sidebar = ({ category, setCategory }) => {
     max-md:backdrop-filter bg-clip-padding backdrop-blur-md max-md:bg-opacity-60 dark:bg-opacity-80 bg-white dark:bg-neutral-900
     bottom-0 md:left-0 max-md:rounded-t-xl max-md:border-[1px] max-md:border-neutral-200 dark:max-md:border-neutral-700">
         {categories.map((genre, idx) => (
-            <Link to={'/feed'} key={idx}>
+            <Link to={'/'} key={idx}>
               <button
                 onClick={() => setCategory(genre.name)}
                 className='flex flex-col items-center justify-center md:py-6 md:hover:scale-110'
