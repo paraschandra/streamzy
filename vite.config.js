@@ -8,7 +8,7 @@ export default defineConfig(({mode}) => {
     define: {
       'process.env.RAPID_API_KEY': JSON.stringify(env.RAPID_API_KEY)
     },
-    base: "./streamzy/",
+    base: "/streamzy/",
     plugins: [react()],
   }
 })
