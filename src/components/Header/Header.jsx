@@ -32,7 +32,7 @@ const Header = () => {
             <form className="flex items-center justify-end h-7 md:h-8 md:w-4/6"
             onSubmit={handleSubmit}>
               <input type="text" placeholder='Search...' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}
-              className='h-full md:w-5/6 px-4 md:px-4 text-xs md:text-sm text-neutral-800 dark:text-white align-middle 
+              className='h-full w-48 md:w-5/6 px-4 md:px-4 text-xs md:text-sm text-neutral-800 dark:text-white align-middle 
               rounded-3xl rounded-r-none border-[1px] border-neutral-500 focus:outline-none bg-transparent'/>
 
               <button className="bg-neutral-600 h-full w-11 md:w-14 rounded-3xl rounded-l-none text-white border-[1px] 

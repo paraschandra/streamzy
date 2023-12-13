@@ -25,11 +25,11 @@ const VideoFeed = () => {
   return (
     <div className='absolute w-full h-full'>
         <div className="w-full h-full relative flex-col md:flex">
-            <div className="absolute w-full h-full px-4 py-16 md:py-20 md:pl-24 bg-white dark:bg-neutral-900 overflow-auto scroll-smooth 
+            <div className="absolute w-full h-full px-4 py-16 md:py-20 md:pl-24 bg-white dark:bg-neutral-900 overflow-auto scroll-smooth max-sm:scrollbar-none
             scrollbar-thin dark:scrollbar-thumb-neutral-500 scrollbar-thumb-neutral-500 scrollbar-track-neutral-300 dark:scrollbar-track-neutral-700">
                 <div className="flex justify-center w-full h-2/5 lg:h-full text-md max-md:text-center my-2 py-4 md:px-6
                   font-semibold dark:text-white shadow-md rounded-xl border-b-2 dark:border-neutral-700">
-                   <div className="relative w-full aspect-video py-2 mx-4">
+                   <div className="relative w-full aspect-video py-2 mx-2 md:mx-4">
                     <ReactPlayer className="!w-full !h-full absolute"
                       url={`https://www.youtube.com/watch?v=${id}`} controls />
                    </div>
